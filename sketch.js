@@ -9,6 +9,7 @@ function setup() {
 function draw() {
   background(255);
   for (j = 0; j < width; j++) {
+    stroke(255, 0, arr[j]);
     line(j, windowHeight, j, arr[j]);
   }
   for (l = 0; l < width; l++) {
