@@ -1,12 +1,16 @@
 function setup() {
-  createCanvas(windowWidth/2, windowHeight/2);
   arr = [];
-  for (i = 0; i < width; i++) {
-    arr.push(random(height));
-  }
+  newArray = true;
 }
 
 function draw() {
+  createCanvas(windowWidth/2, windowHeight/2);
+  if (newArray == true) {
+    for (i = 0; i < width; i++) {
+      arr.push(random(height));
+    }
+    newArray = false;
+  }
   background(255);
   for (j = 0; j < width; j++) {
     stroke(255, 0, arr[j]);
