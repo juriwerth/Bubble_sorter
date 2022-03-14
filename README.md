@@ -1,3 +1,3 @@
 # Visual javascript bubble sorter
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot_of_vbs.png)
