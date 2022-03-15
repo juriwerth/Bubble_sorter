@@ -1,7 +1,5 @@
-function setup() {
-  arr = [];
-  newArray = true;
-}
+arr = [];
+newArray = true;
 
 function draw() {
   createCanvas(windowWidth/2, windowHeight/2);
