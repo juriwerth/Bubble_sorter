@@ -14,7 +14,6 @@ function draw() {
     stroke(255, 0, 255-arr[j]);
     line(j, height, j, height-arr[j]);
   }
-  console.log(arr[0], arr[1]);
   for (l = 0; l < width; l++) {
     if (arr[l] > arr[l+1]) {
       temp = arr[l];
